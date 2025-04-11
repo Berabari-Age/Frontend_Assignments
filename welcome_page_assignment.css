@@ -1,0 +1,53 @@
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: inline-block;
+    background-color: rgb(40, 53, 80);
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.container{
+    margin: 200px;
+}
+.container1{
+    display: inline-block;
+    font-family: tahoma;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.container1 > h2{
+    font-size: 15px;
+    /* font-style: oblique; */
+    margin-bottom: 1px;
+}
+
+.container1 > p{
+    font-size: 8px;
+    margin-top: 2px;
+}
+
+.firstname, .lastname, .email{
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: darkgrey;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: rgb(8, 139, 226);
+    border-color: grey;
+    border-radius: 5px;
+    padding: 3px 69px;
+}
+
+.btn > a{
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
